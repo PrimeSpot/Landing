@@ -1,10 +1,11 @@
 
+
 html {
     font-size: 100%;
 }
 
 body {
-    background: #ffffff;
+    background: #232323;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -100,7 +101,6 @@ li {
             background-size: cover;
     margin: -20px 0 0 -20px;
 }
-
 
 /*---------------------------------------
    Typography
@@ -264,8 +264,8 @@ h5 {
    SECTION:  HOME
 -----------------------------------------*/
 
-header .solid-color {
-    min-height: 650px;
+header .color-overlay {
+    min-height: 900px;
 }
 
 header .full-screen {
@@ -292,7 +292,7 @@ header .full-screen {
 }
 
 .sticky-navigation .main-navigation .current a {
-  color: #000000 !important;
+  color: #dc09e8 !important;
   position: relative;
   outline: none;
 }
@@ -324,10 +324,26 @@ header .only-logo .navbar .navbar-header {
 
 /* INTRO */
 
+header .home-contents {
+    margin-top: 5%;
+}
+
 header .intro-section {
+    text-align: left;
+}
+
+header .intro-section .standard-button {
+    margin: 0;
+}
+
+header .phone-image {
+    max-width: 350px;
     margin: auto;
-    margin-top: 50px;
-    padding-top: 15%;
+    margin-bottom: 50px;
+}
+
+header .phone-image img {
+    width: 100%;
 }
 
 header .intro-section .intro {
@@ -415,6 +431,7 @@ header .intro-section .buttons {
 -----------------------------------------*/
 
 .app-brief {
+    background: #FFFFFF;
     padding-top: 110px;
     padding-bottom: 60px;
 }
@@ -461,7 +478,6 @@ header .intro-section .buttons {
 /* VIDEO */
 
 video {
-    max-width: 100%;
     height: auto;
 }
 
@@ -491,8 +507,8 @@ object {
     color: #ffffff;
 }
 
-.testimonials .solid-color {
-    padding-top: 110px;
+.testimonials .color-overlay {
+    padding-top: 10px;
     padding-bottom: 110px;
 }
 
@@ -665,7 +681,7 @@ object {
     color: #ffffff;
 }
 
-.download .solid-color {
+.download .color-overlay {
     padding-top: 10px;
     padding-bottom: 70px;
 }
@@ -703,10 +719,13 @@ object {
     margin-bottom: 30px;
 }
 
-
 /*---------------------------------------
    SECTION:  FOOTER
 -----------------------------------------*/
+footer {
+    background: #FFFFFF;
+    padding-top: 30px;
+}
 
 footer .contact-box {
     margin-bottom: 78px;

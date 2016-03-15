@@ -109,7 +109,7 @@ if (matchMedia('(min-width: 640px)').matches) {
       "width": 1280,
       "height": 720,
       "path": "video/",
-      "filename": "alaMoanaParking",
+      "filename": "alaMoana",
       "types": ["mp4","ogg","webm"]
     });
   });

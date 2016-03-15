@@ -54,7 +54,6 @@
 <!-- JQUERY -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<link rel="stylesheet" href="css/flipclock.css">
 </head>
 
 <body>
@@ -71,7 +70,7 @@
 <header class="header" id="home">
 
 <!-- COLOR OVER IMAGE -->
-<div class="color-overlay"> <!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
+<div class="color-overlay">
 
 	<!-- STICKY NAVIGATION -->
 	<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
@@ -94,8 +93,8 @@
 			<div class="navbar-collapse collapse" id="kane-navigation">
 				<ul class="nav navbar-nav navbar-right main-navigation">
 					<li><a href="#home">Home</a></li>
-					<li><a href="#features">Features</a></li>
-					<li><a href="#brief2">Why Us?</a></li>
+					<!-- <li><a href="#features">Features</a></li> -->
+					<!-- <li><a href="#brief2">Why Us?</a></li> -->
           <li><a href="#team">Team</a></li>
 					<li><a href="#screenshot-section">Screenshots</a></li>
 					<li><a href="#download">Download</a></li>
@@ -112,7 +111,6 @@
 		<div class="only-logo">
 			<div class="navbar">
 				<div class="navbar-header">
-					<img src="images/PrimeSpot-logo360px.png" alt="purple PrimeSpot Logo with Text">
 				</div>
 			</div>
 		</div> <!-- /END ONLY LOGO ON HEADER -->
@@ -120,37 +118,11 @@
 		<div class="row home-contents">
 			<div class="col-md-6 col-sm-6">
 
-      <div class="clock" style="margin:2em;"></div>
-        <div class="message"></div>
-
-        <script type="text/javascript">
-          var clock;
-
-          $(document).ready(function() {
-            var clock;
-
-            clock = $('.clock').FlipClock({
-                  clockFace: 'DailyCounter',
-                  autoStart: false,
-                  callbacks: {
-                    stop: function() {
-                      $('.message').html('The clock has stopped!')
-                    }
-                  }
-              });
-
-              clock.setTime(110880);
-              clock.setCountdown(true);
-              clock.start();
-
-          });
-        </script>
-
 				<!-- HEADING AND BUTTONS -->
 				<div class="intro-section">
 
 					<!-- WELCOM MESSAGE -->
-					<h1 class="intro">Parking made Simple. Easy.</h1>
+					<h1 class="intro">Premium Spots.<br/>Best Parking.<br/> ​PrimeSpot: "Where you want to park!"</h1>
 					<h5>Available on App Store and Play Store</h5>
 
 					<!-- BUTTON -->
@@ -189,15 +161,15 @@
 <!-- =========================
      FEATURES
 ============================== -->
-<section class="features" id="features">
+<!-- <section class="features" id="features">
 
-<div class="container">
+<div class="container"> -->
 
 	<!-- SECTION HEADER -->
-	<div class="section-header wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+	<!-- <div class="section-header wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s"> -->
 
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">PARK IN THE BEST SPOTS</h2>
+		<!-- <h2 class="dark-text">PARK IN THE BEST SPOTS</h2>
 		<div class="colored-line">
 		</div>
 		<div class="section-description">
@@ -205,165 +177,165 @@
 		</div>
 		<div class="colored-line">
 		</div>
-	</div>
+	</div> -->
 	<!-- /END SECTION HEADER -->
 
 
-	<div class="row">
+	<!-- <div class="row"> -->
 
 		<!-- FEATURES LEFT -->
-		<div class="col-md-4 col-sm-4 features-left wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<!-- <div class="col-md-4 col-sm-4 features-left wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s"> -->
 
 			<!-- FEATURE -->
-			<div class="feature">
+			<!-- <div class="feature"> -->
 
 				<!-- ICON -->
-				<div class="icon-container">
+				<!-- <div class="icon-container">
 					<div class="icon">
 						<i class="icon_map_alt"></i>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
+				<!-- <div class="fetaure-details">
 					<h4 class="main-color">Feature #1</h4>
 					<p>
 						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
 					</p>
 				</div>
 
-			</div>
+			</div> -->
 			<!-- /END SINGLE FEATURE -->
 
 			<!-- FEATURE -->
-			<div class="feature">
+			<!-- div class="feature"> -->
 
 				<!-- ICON -->
-				<div class="icon-container">
+				<!-- <div class="icon-container">
 					<div class="icon">
 						<i class="icon_gift_alt"></i>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
+				<!-- <div class="fetaure-details">
 					<h4 class="main-color">Feature #2</h4>
 					<p>
 						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
 					</p>
 				</div>
 
-			</div>
+			</div> -->
 			<!-- /END SINGLE FEATURE -->
 
 			<!-- FEATURE -->
-			<div class="feature">
+			<!-- <div class="feature"> -->
 
 				<!-- ICON -->
-				<div class="icon-container">
+				<!-- <div class="icon-container">
 					<div class="icon">
 						<i class="icon_tablet"></i>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
+				<!-- <div class="fetaure-details">
 					<h4 class="main-color">Feature #3</h4>
 					<p>
 						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magn.
 					</p>
 				</div>
 
-			</div>
+			</div> -->
 			<!-- /END SINGLE FEATURE -->
 
-		</div>
+		<!-- </div> -->
 		<!-- /END FEATURES LEFT -->
 
 		<!-- PHONE IMAGE -->
-		<div class="col-md-4 col-sm-4">
+		<!-- div class="col-md-4 col-sm-4">
 			<div class="phone-image wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 				<img src="images/single-iphone.png" alt="">
 			</div>
-		</div>
+		</div> -->
 
 		<!-- FEATURES RIGHT -->
-		<div class="col-md-4 col-sm-4 features-right wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<!-- <div class="col-md-4 col-sm-4 features-right wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s"> -->
 
 			<!-- FEATURE -->
-			<div class="feature">
+			<!-- div class="feature"> -->
 
 				<!-- ICON -->
-				<div class="icon-container">
+				<!-- <div class="icon-container">
 					<div class="icon">
 						<i class="icon_genius"></i>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
+				<!-- div class="fetaure-details">
 					<h4 class="main-color">Feature #4</h4>
 					<p>
 						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
 					</p>
 				</div>
 
-			</div>
+			</div> -->
 			<!-- /END SINGLE FEATURE -->
 
 			<!-- FEATURE -->
-			<div class="feature">
+			<!-- <div class="feature"> -->
 
 				<!-- ICON -->
-				<div class="icon-container">
+				<!-- <div class="icon-container">
 					<div class="icon">
 						<i class="icon_lightbulb_alt"></i>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
+				<!-- <div class="fetaure-details">
 					<h4 class="main-color">Feature #5</h4>
 					<p>
 						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
 					</p>
 				</div>
 
-			</div>
+			</div> -->
 
 			<!-- /END SINGLE FEATURE -->
 
 			<!-- FEATURE -->
-			<div class="feature">
+			<!-- div class="feature"> -->
 
 				<!-- ICON -->
-				<div class="icon-container">
+				<!-- <div class="icon-container">
 					<div class="icon">
 						<i class="icon_ribbon_alt"></i>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- FEATURE HEADING AND DESCRIPTION -->
-				<div class="fetaure-details">
+				<!-- div class="fetaure-details">
 					<h4 class="main-color">More Features</h4>
 					<p>
 						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
 					</p>
 				</div>
 
-			</div>
+			</div> -->
 			<!-- /END SINGLE FEATURE -->
 
-		</div>
+		<!-- </div> -->
 		<!-- /END FEATURES RIGHT -->
 
-	</div>
+	<!-- /div> -->
 	<!-- /END ROW -->
 
-</div>
+<!-- </div> -->
 <!-- /END CONTAINER -->
 
-</section>
+<!-- /section> -->
 <!-- /END FEATURES SECTION -->
 
 
@@ -371,17 +343,17 @@
 <!-- =========================
      BRIEF RIGHT SECTION
 ============================== -->
-<section class="app-brief" id="brief2">
+<!-- <section class="app-brief" id="brief2">
 
 <div class="container">
 
-	<div class="row">
+	<div class="row"> -->
 
 		<!-- BRIEF -->
-		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<!-- <div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s"> -->
 
 			<!-- SECTION TITLE -->
-			<h2 class="dark-text">Great way to describe your app</h2>
+			<!-- <h2 class="dark-text">Great way to describe your app</h2>
 
 			<div class="colored-line-left">
 			</div>
@@ -391,24 +363,24 @@
 				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 
-		</div>
+		</div> -->
 		<!-- /ENDBRIEF -->
 
 		<!-- PHONES IMAGE -->
-		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<!-- <div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 			<div class="phone-image">
 				<img src="images/ninja2.png" alt="Parking Ninja to protect your stall">
 			</div>
-		</div>
+		</div> -->
 		<!-- /END PHONES IMAGE -->
 
-	</div>
+	<!-- </div> -->
 	<!-- /END ROW -->
 
-</div>
+<!-- </div> -->
 <!-- /END CONTAINER -->
 
-</section>
+<!-- </section> -->
 <!-- /END SECTION -->
 
 
@@ -427,7 +399,7 @@
 
 				<div class="video">
 
-					<iframe width="640" height="360" src="https://www.youtube.com/embed/2i4cKSiBoOE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<iframe width="640" height="360" src="https://www.youtube.com/embed/WMb0rcS2cxI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 				</div>
 
 			</div>
@@ -444,8 +416,8 @@
 			</div>
 
 			<p>
-				Anyone can find and reserve a prime spot via our intuitive app design. We work hard to simplify and improve the app on a daily basis.<br/><br/>
-				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+        Lina and Ernest of PrimeSpot describe how their app allows users to book premium - i.e., the best - parking spots at busy venues like malls, colleges, and airports. PrimeSpot reduces the uncertainty and stress of parking while allowing facilities to have higher turnover at the most in-demand spots.<br/><br/>Also, PrimeSpot allows third party payment for parking - for example, by participating merchants. The system saves gasoline, time, and frustration while enhancing drivers’ and shoppers’ experience.<br/><br/>
+        Thank you Mr. Howard C. Wiig, ThinkTech Hawaii, and Code Green for having us on the show!
 			</p>
 
 
@@ -454,6 +426,34 @@
 
 	</div>
 	<!-- /END ROW -->
+
+  <div class="row">
+
+    <div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+      <div class="video-container">
+
+        <div class="video">
+
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/2i4cKSiBoOE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE WITH BRIEF -->
+    <div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+      <p>
+        Thank you Mr. Chris Lethem, ThinkTech Hawaii, and The Economy and You for having us on the show to discuss the importance of using premium parking spaces to attract good customers.
+      </p>
+
+
+    </div>
+    <!-- /END RIGHT BRIEF -->
+
+  </div>
+  <!-- /END ROW -->
 
 </div>
 <!-- /END CONTAINER -->
@@ -568,7 +568,12 @@
         </div>
 
         <div class="message">
-          Francis has a B.S. from the University of California, San Diego with a major in microbiology/ immunology and a minor in mechanical engineering. He also holds a professional degree, O.D. (Doctor of Optometry), from the University of California, Berkeley. His professional career spans research, healthcare, and software engineering. He performed auditory research at San Diego V.A. Hospital and cardiac research at U.C. San Diego Medical School. Francis operated his own optometry business while examining patients and managing a staff of 6 doctors and business specialists. Francis’ interest in software flourished with the acclaim of object-oriented programming (OOP) and his enrollment in Java computer science courses at U.C. Berkeley while concurrently completing his optometry curriculum. In his 10 years of programming experience, he has programmed in 10 software languages, with the most recent being Javascript using Node.js and Meteor frameworks. He has built entire applications for the desktop, web, and mobile environments. At PrimeSpot, Francis is currently developing the foundation structure for a cloud-connected, mobile app that’s reactive to users’ interaction, responsive to device size & layout, and adaptive to localized demands.
+          B.S. in microbiology/ immunology (engineering minor) from U.C. San Diego<br/>
+          O.D. (Doctor of Optometry) from University of California, Berkeley<br/>
+          Cardiac & Audiology Researcher at UCSD Medical School & San Diego V.A. Hospital<br/>
+          Optometrist/ Manager/ Business Owner at Eye-2-Eye Exams, CA<br/>
+          Software Contractor (5+ years): building entire applications in Java, Javascript & PHP<br/>
+          PrimeSpot: core code development for a cloud-connected mobile app that’s reactive to users’ interaction, responsive to device size, and adaptive to localized demands
         </div>
 
         <div class="white-line">
@@ -601,15 +606,15 @@
 <!-- =========================
      SERVICES
 ============================== -->
-<section class="services" id="services">
+<!-- <section class="services" id="services">
 
-<div class="container">
+<div class="container"> -->
 
 	<!-- SECTION HEADER -->
-	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+	<!-- <div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s"> -->
 
 		<!-- SECTION TITLE -->
-		<h2 class="dark-text">It's Awesome</h2>
+		<!-- <h2 class="dark-text">It's Awesome</h2>
 
 		<div class="colored-line">
 		</div>
@@ -619,75 +624,75 @@
 		<div class="colored-line">
 		</div>
 
-	</div>
+	</div> -->
 	<!-- /END SECTION HEADER -->
 
-	<div class="row">
+	<!-- <div class="row"> -->
 
 		<!-- SINGLE SERVICE -->
-		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<!-- <div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s"> -->
 
 			<!-- SERVICE ICON -->
-			<div class="service-icon">
+			<!-- <div class="service-icon">
 				<i class="icon_cloud-upload_alt"></i>
-			</div>
+			</div> -->
 
 			<!-- SERVICE HEADING -->
-			<h3>Security</h3>
+			<!-- <h3>Security</h3> -->
 
 			<!-- SERVICE DESCRIPTION -->
-			<p>
+			<!-- <p>
 				 Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness evening there them multiply all spirit for isn't, him land every you'll heaven bearing.
 			</p>
 
-		</div>
+		</div> -->
 		<!-- /END SINGLE SERVICE -->
 
 		<!-- SINGLE SERVICE -->
-		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<!-- <div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s"> -->
 
 			<!-- SERVICE ICON -->
-			<div class="service-icon">
+			<!-- <div class="service-icon">
 				<i class="icon_gift_alt"></i>
-			</div>
+			</div> -->
 
 			<!-- SERVICE HEADING -->
-			<h3>Monthly Rewards</h3>
+			<!-- <h3>Monthly Rewards</h3> -->
 
 			<!-- SERVICE DESCRIPTION -->
-			<p>
+			<!-- <p>
 				 Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness evening there them multiply all spirit for isn't, him land every you'll heaven bearing.
 			</p>
 
-		</div>
+		</div> -->
 		<!-- /END SINGLE SERVICE -->
 
 		<!-- SINGLE SERVICE -->
-		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+		<!-- <div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s"> -->
 
 			<!-- SERVICE ICON -->
-			<div class="service-icon">
+			<!-- <div class="service-icon">
 				<i class="icon_chat_alt"></i>
-			</div>
+			</div> -->
 
 			<!-- SERVICE HEADING -->
-			<h3>24/7 Support</h3>
+			<!-- <h3>24/7 Support</h3> -->
 
 			<!-- SERVICE DESCRIPTION -->
-			<p>
+			<!-- <p>
 				 Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness evening there them multiply all spirit for isn't, him land every you'll heaven bearing.
 			</p>
 
-		</div>
+		</div> -->
 		<!-- /END SINGLE SERVICE -->
 
-	</div>
+	<!-- </div> -->
 	<!-- /END ROW -->
 
-</div>
+<!-- </div> -->
 <!-- /END CONTAINER -->
 
-</section>
+<!-- </section> -->
 <!-- /END FEATURES SECTION -->
 
 
@@ -785,26 +790,26 @@
 					     MAILCHIMP FORM STARTS
 					     ===================== -->
 
-					<form class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form">
+					<!-- <form class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form"> -->
 
 						<!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
-						<h4 class="subscription-success"></h4>
-						<h4 class="subscription-error"></h4>
+						<!-- <h4 class="subscription-success"></h4>
+						<h4 class="subscription-error"></h4> -->
 
 						<!-- EMAIL INPUT BOX -->
-						<input type="email" name="email" id="subscriber-email" placeholder="Your Email" class="form-control input-box">
+						<!-- <input type="email" name="email" id="subscriber-email" placeholder="Your Email" class="form-control input-box"> -->
 
 						<!-- SUBSCRIBE BUTTON -->
-						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Subscribe</button>
+						<!-- <button type="submit" id="subscribe-button" class="btn btn-default standard-button">Subscribe</button>
 
-					</form>
+					</form> -->
 					<!-- /END MAILCHIMP FORM STARTS -->
 
 					<!-- =====================
 					     LOCAL TXT FORM STARTS
 					     ===================== -->
 
-					<!-- THIS FORM IS COMMENTED TO HIDE
+					<!-- THIS FORM IS COMMENTED TO HIDE -->
 
 					<form class="subscription-form form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" id="subscribe" role="form">
 
@@ -816,8 +821,6 @@
 						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Subscribe</button>
 
 					</form>
-
-					-->
 
 					<!-- / LOCAL TXT SAVING FORM END -->
 
@@ -846,27 +849,27 @@
 
 <div class="container">
 
-	<div class="contact-box wow rotateIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+	<!-- <div class="contact-box wow rotateIn animated" data-wow-offset="10" data-wow-duration="1.5s"> -->
 
 		<!-- CONTACT BUTTON TO EXPAND OR COLLAPSE FORM -->
 
-		<a class="btn contact-button expand-form expanded"><i class="icon_mail_alt"></i></a>
+		<!-- <a class="btn contact-button expand-form expanded"><i class="icon_mail_alt"></i></a> -->
 
 		<!-- EXPANDED CONTACT FORM -->
-		<div class="row expanded-contact-form">
+		<!-- <div class="row expanded-contact-form">
 
-			<div class="col-md-8 col-md-offset-2">
+			<div class="col-md-8 col-md-offset-2"> -->
 
 				<!-- FORM -->
-				<form class="contact-form" id="contact" role="form">
+				<!-- <form class="contact-form" id="contact" role="form"> -->
 
 					<!-- IF MAIL SENT SUCCESSFULLY -->
-					<h4 class="success">
+					<!-- <h4 class="success">
 						<i class="icon_check"></i> Your message has been sent successfully.
-					</h4>
+					</h4> -->
 
 					<!-- IF MAIL SENDING UNSUCCESSFULL -->
-					<h4 class="error">
+					<!-- <h4 class="error">
 						<i class="icon_error-circle_alt"></i> E-mail must be valid and message must be longer than 1 character.
 					</h4>
 
@@ -885,15 +888,15 @@
 
 					<button class="btn btn-primary standard-button2 ladda-button" type="submit" id="submit" name="submit" data-style="expand-left">Send Message</button>
 
-				</form>
+				</form> -->
 				<!-- /END FORM -->
 
-			</div>
+			<!-- </div>
 
-		</div>
+		</div> -->
 		<!-- /END EXPANDED CONTACT FORM -->
 
-	</div>
+	<!-- </div> -->
 	<!-- /END CONTACT BOX -->
 
 	<!-- LOGO -->
@@ -901,13 +904,9 @@
 
 	<!-- SOCIAL ICONS -->
 	<ul class="social-icons">
-		<li><a href=""><i class="social_facebook_square"></i></a></li>
-		<li><a href=""><i class="social_twitter_square"></i></a></li>
-		<li><a href=""><i class="social_pinterest_square"></i></a></li>
-		<li><a href=""><i class="social_googleplus_square"></i></a></li>
-		<li><a href=""><i class="social_instagram_square"></i></a></li>
-		<li><a href=""><i class="social_dribbble_square"></i></a></li>
-		<li><a href=""><i class="social_flickr_square"></i></a></li>
+		<li><a href="https://www.facebook.com/PrimeSpot.io/"><i class="social_facebook_square"></i></a></li>
+		<li><a href="https://twitter.com/primespotpark"><i class="social_twitter_square"></i></a></li>
+		<li><a href="https://www.instagram.com/primespot.ninja/"><i class="social_instagram_square"></i></a></li>
 	</ul>
 
 	<!-- COPYRIGHT TEXT -->
@@ -925,7 +924,7 @@
 <!-- =========================
      SCRIPTS
 ============================== -->
-<script src="js/flipclock.js"></script>
+
 <script src="js/bootstrap.min.js"></script>
 <script src="js/smoothscroll.js"></script>
 <script src="js/jquery.scrollTo.min.js"></script>
