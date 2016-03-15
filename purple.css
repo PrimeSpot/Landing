@@ -9,15 +9,15 @@ DEEP COLOR CODE: #430064
 ----------------------------------------- */
 
 .solid-color {
-    background: #dc09e8;
+    background: #B83291;
 }
 
 .standard-button {
-    background: #dc09e8;
+    background: #B83291;
 }
 
 .standard-button2 {
-    background: #dc09e8;
+    background: #B83291;
 }
 
 .standard-button2:hover {
@@ -34,60 +34,60 @@ DEEP COLOR CODE: #430064
 
 .colored-line,
 .colored-line-left {
-    background: #dc09e8;
+    background: #B83291;
 }
 
 .main-color {
-    color: #dc09e8;
+    color: #B83291;
 }
 
 .color-bg {
-	background: #dc09e8;
+	background: #B83291;
 	color: #FFFFFF;
 }
 
 .features .feature:hover .icon-container .icon {
-    background: #dc09e8;
+    background: #B83291;
     color: #ffffff;
     border: 2px solid #ffffff;
-    -webkit-box-shadow: 0px 0px 0px 2px #dc09e8;
-            box-shadow: 0px 0px 0px 2px #dc09e8;
+    -webkit-box-shadow: 0px 0px 0px 2px #B83291;
+            box-shadow: 0px 0px 0px 2px #B83291;
 }
 
 .features .feature .icon-container .icon {
-    border: 1px solid #dc09e8;
-    color: #dc09e8;
+    border: 1px solid #B83291;
+    color: #B83291;
 }
 
 .feature-list li i {
-    color: #dc09e8;
+    color: #B83291;
 }
 
 .services .single-service .service-icon,
 .services .single-service h3 {
-    color: #dc09e8;
+    color: #B83291;
 }
 
 .screenshots .owl-theme .owl-controls .owl-page span {
-    background: #dc09e8;
+    background: #B83291;
 }
 
 footer .contact-button {
-    border: 2px solid #dc09e8;
-    color: #dc09e8;
+    border: 2px solid #B83291;
+    color: #B83291;
 }
 
 footer .contact-button:hover {
-    background: #dc09e8;
+    background: #B83291;
 }
 
 footer .contact-box .expanded-contact-form .input-box:active,
 footer .contact-box .expanded-contact-form .textarea-box:active,
 footer .contact-box .expanded-contact-form .input-box:focus,
 footer .contact-box .expanded-contact-form .textarea-box:focus {
-    border: 1px solid #dc09e8;
+    border: 1px solid #B83291;
 }
 
 footer .social-icons li a:hover {
-    color: #dc09e8;
+    color: #B83291;
 }
