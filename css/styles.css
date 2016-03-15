@@ -206,6 +206,10 @@ h5 {
     background: #F7F8FA !important;
 }
 
+.purple-bg {
+  background-color: #dc09e8 !important;
+}
+
 
 /*---------------------------------------
    SECTIONS
@@ -503,13 +507,17 @@ object {
 /*---------------------------------------
    SECTION:  TESTIMONIALS
 -----------------------------------------*/
+
+
+
+
 .testimonials {
     color: #ffffff;
 }
 
 .testimonials .color-overlay {
-    padding-top: 10px;
-    padding-bottom: 110px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .testimonials .feedback {

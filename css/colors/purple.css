@@ -2,9 +2,9 @@
 =========================================
 COLOR : PURPLE
 
-MAIN COLOR CODE: #8600c8
+MAIN COLOR CODE: #b22792
 
-DEEP COLOR CODE: #430064
+Bright COLOR CODE: #dc09e8
 =========================================
 ----------------------------------------- */
 
@@ -14,15 +14,15 @@ DEEP COLOR CODE: #430064
 }
 
 .standard-button {
-    background: #dc09e8;
+    background: #b22792;
 }
 
 .standard-button2 {
-    background: #dc09e8;
+    background: #b22792;
 }
 
 .standard-button2:hover {
-    background: #430064;
+    background: #dc09e8;
 }
 
 .btn-primary:focus,
@@ -35,15 +35,15 @@ DEEP COLOR CODE: #430064
 
 .colored-line,
 .colored-line-left {
-    background: #dc09e8;
+    background: #b22792;
 }
 
 .main-color {
-    color: #dc09e8;
+    color: #b22792;
 }
 
 .color-bg {
-	background: #dc09e8;
+	background: #b22792;
 	color: #FFFFFF;
 }
 
