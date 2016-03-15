@@ -7,11 +7,9 @@ MAIN COLOR CODE: #8600c8
 DEEP COLOR CODE: #430064
 =========================================
 ----------------------------------------- */
+
 .solid-color {
-  background: #dc09e8;
-}
-.color-overlay {
-     background: #dc09e8;
+    background: #dc09e8;
 }
 
 .standard-button {
