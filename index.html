@@ -458,8 +458,11 @@
 
               $(document).ready(function() {
                 var clock;
+                var date = new Date(2016, 3, 1);
+                var now = new Date();
+                var diff = (date.getTime()/1000) - (now.getTime()/1000);
 
-                clock = $('.clock').FlipClock({
+                clock = $('.clock').FlipClock(diff, {
                       clockFace: 'DailyCounter',
                       autoStart: false,
                       callbacks: {
@@ -469,7 +472,6 @@
                       }
                   });
 
-                  clock.setTime(110880);
                   clock.setCountdown(true);
                   clock.start();
 
