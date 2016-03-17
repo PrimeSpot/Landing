@@ -557,7 +557,8 @@ object {
 }
 
 .testimonials .feedback .company-info {
-    font-size: 12px;
+    margin-top: 15px;
+    font-weight: 400;
 }
 
 .testimonials .owl-theme .owl-controls .owl-page span {

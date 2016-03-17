@@ -23,10 +23,11 @@ $(".video-container").fitVids();
 
 $('.mailchimp').ajaxChimp({
     callback: mailchimpCallback,
-    url: "http://ninja.us13.list-manage.com/subscribe/post?u=88a0b11b339de30d38ab68de6&amp;id=9420018da2" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+    url: "http://ninja.us13.list-manage.com/subscribe/post?u=88a0b11b339de30d38ab68de6&amp;id=9420018da2" //Replace this with your own mailchimp post URL.
 });
 
 function mailchimpCallback(resp) {
+  console.log(resp);
      if (resp.result === 'success') {
         $('.subscription-success').html('<i class="icon_check_alt2"></i><br/>' + resp.msg).fadeIn(1000);
         $('.subscription-error').fadeOut(500);
