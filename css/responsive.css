@@ -10,21 +10,14 @@ RESPONSIVE FIXES
 
     header {
       /* Add whichever image we want for header*/
-    background: url('../images/bg-1.jpg') no-repeat center;
-    -webkit-background-size: cover;
-            background-size: cover;
-    }
-
-    .testimonials {
-      /* Add whichever image we want for testimonials*/
-    background: url('../images/bg-2.jpg') no-repeat center;
+    background: url('../images/murphys-mustang.jpg') no-repeat center;
     -webkit-background-size: cover;
             background-size: cover;
     }
 
     .download {
       /* Add whichever image we want for download section*/
-    background: url('../images/bg-3.jpg') no-repeat center;
+    background: url('../images/murphys-mustang.jpg') no-repeat center;
     -webkit-background-size: cover;
             background-size: cover;
 
